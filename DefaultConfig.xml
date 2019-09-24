@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <!-- 
+    Inform on player join the server in Discord via Webhook?!
+  -->
+  <config Name="join_webhook_use" Value="false" />
+  <config Name="join_webhook_url" Value="https://discordapp.com/api/webhooks/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+  <!-- Use %p for Player Name -->
+  <config Name="join_webhook_msg" Value="[The Forest] %p ist auf der Ureinwohner Insel gestrandet." />
+  
+  <!-- 
+    Inform on player left the server in Discord via Webhook?!
+  -->
+  <config Name="left_webhook_use" Value="false" />
+  <config Name="left_webhook_url" Value="https://discordapp.com/api/webhooks/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+  <!-- Use %p for Player Name -->
+  <config Name="left_webhook_msg" Value="[The Forest] %p hat die Insel einfach verlassen." />
+  
+  <!-- 
+    Send Chat to Discord via Webhook?!
+  -->
+  <config Name="chat_webhook_use" Value="false" />
+  <config Name="chat_webhook_url" Value="https://discordapp.com/api/webhooks/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+  <config Name="chat_webhook_prefix" Value="[The Forest]" />
+
+  <!-- 
+    Inform on player join the server in Game Chat?!
+  -->
+  <config Name="join_chat_use" Value="false" />
+  <!-- Use %p for Player Name -->
+  <config Name="join_chat_msg" Value="%p ist auf der Ureinwohner Insel gestrandet." />
+
+
+  <!-- 
+    Inform on player left the server in Game Chat?!
+  -->
+  <config Name="left_chat_use" Value="false" />
+  <!-- Use %p for Player Name -->
+  <config Name="left_chat_msg" Value="%p hat die Insel einfach verlassen." />
+</Configuration>
